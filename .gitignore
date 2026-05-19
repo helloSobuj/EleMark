@@ -1,0 +1,11 @@
+# WordPress uploads
+assets/js/marked.min.js
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp

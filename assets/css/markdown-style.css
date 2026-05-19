@@ -1,0 +1,172 @@
+/* ============================================================
+   RedLab Markdown Widget — default stylesheet
+   All rules scoped to .redlab-markdown-output to avoid conflicts
+   ============================================================ */
+
+.redlab-markdown-output {
+	font-size: 16px;
+	line-height: 1.7;
+	color: inherit;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+/* ----- Headings ----- */
+.redlab-markdown-output h1,
+.redlab-markdown-output h2,
+.redlab-markdown-output h3,
+.redlab-markdown-output h4,
+.redlab-markdown-output h5,
+.redlab-markdown-output h6 {
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	font-weight: 700;
+	line-height: 1.3;
+}
+
+.redlab-markdown-output h1 { font-size: 2.25em; }
+.redlab-markdown-output h2 { font-size: 1.75em; }
+.redlab-markdown-output h3 { font-size: 1.4em; }
+.redlab-markdown-output h4 { font-size: 1.15em; }
+.redlab-markdown-output h5 { font-size: 1em; }
+.redlab-markdown-output h6 { font-size: 0.875em; color: #666; }
+
+.redlab-markdown-output h1:first-child,
+.redlab-markdown-output h2:first-child,
+.redlab-markdown-output h3:first-child {
+	margin-top: 0;
+}
+
+/* ----- Paragraphs ----- */
+.redlab-markdown-output p {
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+/* ----- Links ----- */
+.redlab-markdown-output a {
+	color: #0073aa;
+	text-decoration: underline;
+	text-underline-offset: 2px;
+	transition: color 0.2s ease;
+}
+
+.redlab-markdown-output a:hover {
+	color: #005177;
+}
+
+/* ----- Strong / em ----- */
+.redlab-markdown-output strong { font-weight: 700; }
+.redlab-markdown-output em     { font-style: italic; }
+
+/* ----- Lists ----- */
+.redlab-markdown-output ul,
+.redlab-markdown-output ol {
+	margin-top: 0;
+	margin-bottom: 1em;
+	padding-left: 1.75em;
+}
+
+.redlab-markdown-output ul { list-style-type: disc; }
+.redlab-markdown-output ol { list-style-type: decimal; }
+
+.redlab-markdown-output li {
+	margin-bottom: 0.3em;
+}
+
+.redlab-markdown-output li > ul,
+.redlab-markdown-output li > ol {
+	margin-top: 0.3em;
+	margin-bottom: 0;
+}
+
+/* ----- Inline code ----- */
+.redlab-markdown-output code {
+	font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+	font-size: 0.875em;
+	background-color: #f4f4f4;
+	border: 1px solid #e1e1e1;
+	border-radius: 3px;
+	padding: 2px 5px;
+	white-space: nowrap;
+}
+
+/* ----- Block code ----- */
+.redlab-markdown-output pre {
+	background-color: #1e1e1e;
+	color: #d4d4d4;
+	border-radius: 6px;
+	padding: 1em;
+	overflow-x: auto;
+	margin-top: 0;
+	margin-bottom: 1em;
+	line-height: 1.6;
+}
+
+.redlab-markdown-output pre code {
+	background: none;
+	border: none;
+	border-radius: 0;
+	padding: 0;
+	font-size: inherit;
+	white-space: pre;
+	color: inherit;
+}
+
+/* ----- Blockquote ----- */
+.redlab-markdown-output blockquote {
+	margin: 0 0 1em 0;
+	padding: 0.5em 0 0.5em 1em;
+	border-left: 4px solid #e0e0e0;
+	color: #666;
+	font-style: italic;
+}
+
+.redlab-markdown-output blockquote p {
+	margin-bottom: 0;
+}
+
+/* ----- Tables ----- */
+.redlab-markdown-output table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 1em;
+	font-size: 0.95em;
+}
+
+.redlab-markdown-output th,
+.redlab-markdown-output td {
+	border: 1px solid #ddd;
+	padding: 0.5em 0.75em;
+	text-align: left;
+}
+
+.redlab-markdown-output th {
+	background-color: #f8f8f8;
+	font-weight: 700;
+}
+
+.redlab-markdown-output tr:nth-child(even) {
+	background-color: #fafafa;
+}
+
+/* ----- Horizontal rule ----- */
+.redlab-markdown-output hr {
+	border: none;
+	border-top: 1px solid #eee;
+	margin: 1.5em 0;
+}
+
+/* ----- Images ----- */
+.redlab-markdown-output img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+/* ----- Task list checkboxes (GFM) ----- */
+.redlab-markdown-output input[type="checkbox"] {
+	margin-right: 0.4em;
+	vertical-align: middle;
+}
