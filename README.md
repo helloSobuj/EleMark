@@ -1,6 +1,6 @@
-# EleMark — Elementor Markdown Widget
+<h1 align="center">EleMark — Elementor Markdown Widget</h1>
 
-![EleMark Banner](assets/banner-1544x500.png)
+![EleMark Banner](https://redboltit.com/redlab/media/Elemark%20Github%20cover.jpg)
 
 [![WordPress](https://img.shields.io/badge/WordPress-5.0%2B-blue?logo=wordpress)](https://wordpress.org)
 [![Elementor](https://img.shields.io/badge/Elementor-3.0%2B-pink?logo=elementor)](https://elementor.com)
@@ -79,7 +79,7 @@ Once installed, open Elementor editor:
 2. Drag **"Markdown Editor"** widget to your page
 3. Start writing Markdown in the content area:
 
-```markdown
+```Markdown 
 # Hello World
 
 This is **EleMark** — write markdown, get beautiful HTML.
@@ -94,7 +94,7 @@ This is **EleMark** — write markdown, get beautiful HTML.
 ```python
 print("Hello from EleMark!")
 ```
-```
+
 
 4. See it render live in the editor!
 
@@ -160,7 +160,8 @@ wp plugin activate elemark
 
 - 🐛 **Bug?** → [Open an Issue](https://github.com/redboltit/elemark/issues)
 - 💡 **Feature Request?** → [Start a Discussion](https://github.com/redboltit/elemark/discussions)
-- 📧 **Email:** support@redboltit.com
+- 📧 **Email:** hellosobuj.dev@gmail.com
+
 
 ---
 
@@ -193,13 +194,12 @@ the Free Software Foundation; either version 2 of the License.
 
 **RedBolt IT**
 - 🌐 Website: [redboltit.com](https://redboltit.com)
-- 🐙 GitHub: [@redboltit](https://github.com/redboltit)
-- 📧 Email: hello@redboltit.com
+- 🐙 GitHub: [@hellosobuj](https://github.com/hellosobuj)
+- 📧 Email: hellosobuj.dev@gmail.com
 
 ---
 
 <p align="center">
   Made with ❤️ by <a href="https://redboltit.com">RedBolt IT</a>
-  <br>
-  <strong>EleMark Red — Pro version coming soon 🔴</strong>
+
 </p>
